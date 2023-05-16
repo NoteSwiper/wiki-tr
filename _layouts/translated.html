@@ -6,7 +6,7 @@ published: false
 ---
 
 {% if page.origin_includes_spoiler_content %}
-    {% include fandom/spoiler.html lang='{{ page.translated_lang }}' %}
+    {% include fandom-spoiler.html lang='{{ page.translated_lang }}' %}
 {% endif %}
 {% case page.translated_lang %}
     {% when "jp" %}

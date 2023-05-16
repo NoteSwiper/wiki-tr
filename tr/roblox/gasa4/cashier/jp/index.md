@@ -13,7 +13,7 @@ infobox: "?"
 translated_status: "draft"
 ---
 
-<!-- {% include fandom/infobox.html title='' image='' aliases='' pronouns='' occupations='' relationships='' residence='' sounds='' %} -->
+<!-- {% include fandom-infobox.html title='' image='' aliases='' pronouns='' occupations='' relationships='' residence='' sounds='' %} -->
 
 **Cashier**は、[Get a snack at 4am]の重要なキャラクターです。彼は[Get a snack at 4am]内にある[Store]を経営しています。
 
