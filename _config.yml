@@ -1,5 +1,33 @@
 name: wiki-tr
 title: wiki-tr
 
+sitemap: true
+
 url: https://noteswiper.github.io/wiki-tr/
 
+collections:
+  tr:
+    output: true
+
+plugins:
+  - jekyll-avatar
+  - jekyll-commonmark-ghpages
+  # - jekyll-coffeescript
+  # - jekyll-default-layout
+  - jekyll-feed
+  # - jekyll-gist
+  # - jekyll-github-metadata
+  - jekyll-include-cache
+  - jekyll-mentions
+  # - jekyll-optional-front-matter
+  # - jekyll-paginate
+  # - jekyll-readme-index
+  - jekyll-redirect-from
+  - jekyll-sass-converter
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jemoji
+  - kramdown
+  - sass
+  # - jekyll-titles-from-headings
+  # - jekyll-relative-links

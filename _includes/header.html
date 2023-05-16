@@ -1,0 +1,8 @@
+<header>
+    <p>WIKI-TR</p>
+    <nav>
+        {% for menuitem in site.data.menu %}
+        <a href="{{ menuitem.url }}">{{ menuitem.name }}</a>
+        {% endfor %}
+    </nav>
+</header>

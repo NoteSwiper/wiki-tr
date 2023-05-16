@@ -1,7 +1,10 @@
 <!DOCTYPE html>
+{% include comments.html %}
 <html lang="{{ site.lang }}" dir="ltr" spellcheck="true">
     {% include head.html %}
     <body>
+        {% include header.html %}
         {{ content }}
+        {% include footer.html %}
     </body>
 </html>

@@ -1,0 +1,6 @@
+- name: "Home"
+  url: "/"
+- name: "Links"
+  url: "/link"
+- name: "Translated Contents"
+  url: "/tr/"
