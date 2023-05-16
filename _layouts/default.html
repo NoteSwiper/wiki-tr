@@ -6,5 +6,8 @@
         {% include header.html %}
         {{ content }}
         {% include footer.html %}
+        {% if jekyll.environment == "production" %}
+            <p>production</p>
+        {% endif %}
     </body>
 </html>

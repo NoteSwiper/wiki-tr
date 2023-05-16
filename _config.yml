@@ -1,14 +1,97 @@
 name: wiki-tr
 title: wiki-tr
 
+source: .
+destination: ./_site
+collections_dir: .
+plugins_dir: _plugins
+layouts_dir: _layouts
+data_dir: _data
+includes_dir: _includes
+
+sass:
+  sass_dir: _sass
+
+disable_disk_cache: false
+exclude: []
+incldue: []
+keep_files: [".git"]
+
+timezone: Asia/Tokyo
+encoding: utf-8
+
+show_drafts: true
+future: true
+unpublished: true
+lsi: true
+
+profile: true
+
+liquid:
+  error_mode: warn
+  strict_filters: false
+  strict_variables: false
+
 sitemap: true
 
 url: https://noteswiper.github.io/wiki-tr/
 
 collections:
+  posts:
+    output: true
   tr:
     output: true
 
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+limit_posts: 0
+
+markdown: kramdown
+highlighter: rouge
+excerpt_separator: \n\n
+
+permalink: date
+paginate_path: /page:num
+
+rdiscount:
+  extensions: []
+
+redcarpet:
+  extensions: []
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  gfm_emojis: true
+  auto_id_prefix: "id"
+  auto_id_stripping: true
+  auto_ids: true
+  entity_output: as_char
+  footnote_backlink: &#8617;
+  footnote_backlink_inline: "false"
+  footnote_nr: 1
+  footnote_prefix: fp
+  header_offset: 0
+  html_to_native: false
+  latex_headers: section,subsection,subsubsection,paragraph,subparagraph,subparagraph
+  line_width: 72
+  math_engine: mathjax
+  parse_block_html: false
+  parse_span_html: true
+  remove_block_html_tags: true
+  remove_line_breaks_for_cjk: false
+  remove_span_html_tags: false
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  syntax_highlighter: rouge
+  template: none
+  transliterated_header_ids: true
+
+defaults: []
+
+webrick: 
+  headers:
+    test: "false"
+
+safe: false
 plugins:
   - jekyll-avatar
   - jekyll-commonmark-ghpages
